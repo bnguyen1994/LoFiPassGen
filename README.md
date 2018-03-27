@@ -1,5 +1,5 @@
 # LoFiPassGen
-Simple Android app that consistently generates a password using a master password and a name of a service or human memorable name to generate the password. No infomation is stored in the application at all. Created for CS453 Mobile Security and Privacy class at the University of Nevada, Reno.
+Simple Android app that consistently generates a password using a master password and a name of a service or human memorable name to generate the password. No infomation is stored in the application at all. Created for the CS453 Mobile Security and Privacy class at the University of Nevada, Reno.
 
 ## Features
 
