@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LofiPasswordGen</string>
+    <string name="master_password">Master Password</string>
+    <string name="service_name">Service/Name</string>
+    <string name="generated_password">Generated Password</string>
+    <string name="generate_password">Generate Password</string>
+</resources>
