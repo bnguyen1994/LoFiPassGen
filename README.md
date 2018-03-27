@@ -10,6 +10,11 @@ Simple Android app that consistently generates a password using a master passwor
 * Case-sensitive
 * No storage required! Works on any device!
 
+## Security 
+* Inspired by other password managers but worried about the issue about intercepted packets containing password hashes if transmitting to an online storage or requiring a logon.
+* Since not stored in local either so a stolen phone will not result in lost passwords
+* Algorithm inspired by a one-time pad cipher, except taking it one step further by not saving a rule set.
+
 ## How it works
 * Uses a master key and a word of a service to generate the cypher ruleset
 * For example, say the master key is “StrongPassword” and the service is “Facebook”
@@ -17,11 +22,6 @@ Simple Android app that consistently generates a password using a master passwor
   * If one string is longer than the other, the program will repeat the shorter string.
   * If the new ASCII value exceeds a value on the ASCII table, it will back wrap around +32
   * Generates the same password every time if both strings are the same.
-
-## Security 
-* Inspired by other password managers but worried about the issue about intercepted packets containing password hashes if transmitting to an online storage or requiring a logon.
-* Since not stored in local either so a stolen phone will not result in lost passwords
-* Algorithm inspired by a one-time pad cipher, except taking it one step further by not saving a rule set.
 
 ## TO DO
 * Strengthen the algorithm
